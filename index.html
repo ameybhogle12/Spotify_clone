@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d830f94377.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify logo.png" alt="spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Welcome to Spotify Clone</h1>
+            <div>
+                <div class="songItem">
+                    <img src="songIconImage.png" alt="1]">
+                    <span class="songName">One voice</span>
+                    <span class="songListPlay"><span class="timeStamp">02:42 <i id="0" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="songIconImage.png" alt="1]">
+                    <span class="songName">One voice</span>
+                    <span class="songListPlay"><span class="timeStamp">02:42 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="songIconImage.png" alt="1]">
+                    <span class="songName">One voice</span>
+                    <span class="songListPlay"><span class="timeStamp">02:42 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="songIconImage.png" alt="1]">
+                    <span class="songName">One voice</span>
+                    <span class="songListPlay"><span class="timeStamp">02:42 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="songIconImage.png" alt="1]">
+                    <span class="songName">One voice</span>
+                    <span class="songListPlay"><span class="timeStamp">02:42 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- Fontawesome icons -->
+            <i class="fa-solid bottomIcons fa-backward-step" id="previous"></i>
+            <i class="fa-regular bottomIcons fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid bottomIcons fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="songGif.gif" alt="playing..." width="50px" id="playingGif"> <span id="masterSongName">One-Voice</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

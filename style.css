@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=EB+Garamond&family=Marck+Script&family=Monda&family=Patua+One&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: antiquewhite;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    background: black;
+    color: aliceblue;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+/* *****************************************Bottom progress bar********************************* */
+.container{
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url('container\ bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottomIcons{
+    font-size: 30px;
+    margin: 0 12px;
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songInfo{
+    position:absolute;
+    left: 10vw;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+/* *****************************Song List************************** */
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+.songItem img{
+    width: 40px;
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+
+.timeStamp{
+    margin: 0 15px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
